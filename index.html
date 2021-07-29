@@ -18,17 +18,42 @@
     <header class="header">
         <section class="container">
             <div class="row align-items-center py-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="hero-text text-white pe-5 mh-100">
                         <p>Computer-controlled digital transistorized with electronic advance</p>
                         <h1 class="fw-bold pb-3">Honda CBR 300R</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn purchase-btn px-5 text-white fs-5">Purchase</button>
+
+                        <!-- Button trigger modal -->
+                        <button class="btn purchase-btn px-5 fs-5 mb-5"  data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content text-dark">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Welcome to our Bike World</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Thanks for Visiting our Bike World. We have latest model bikes. If you want to purchase one of them you are most welcome.
+                                    <br>
+                                    Contact Us: +880123456789
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6  col-12">
                     <div class="hero-img d-flex justify-content-center">
-                        <img src="images/header-bike.png" alt="">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
                     </div>
                 </div>
             </div>
@@ -43,13 +68,13 @@
                     <h6 class="text-danger">Best bike collection</h6>
                 </div>
             <div class="row justify-content-around">
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 col-12 mb-5 text-center">
                     <img class="w-75 img-filter-grey" src="images/feature-bike.jpg" alt="">
                 </div>
-                 <div class="col-lg-4 text-center">
+                 <div class="col-lg-4 col-12 mb-5 text-center">
                     <img class="w-75" src="images/feature-bike.jpg" alt="">
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 col-12 mb-5 text-center">
                     <img class="w-75 img-filter-grey" src="images/feature-bike.jpg" alt="">
                 </div>
             </div>    
@@ -141,12 +166,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div>
                         <img class="w-75" src="images/faq.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
@@ -205,7 +230,7 @@
 
         <!-- latest bikes -->
         <section class="container py-5">
-            <div class="row pb-5 text-center">
+            <div class="row pb-5 text-center section-heading">
                 <h1>Latest Bikes</h1>
             </div>
             <div class="row">
@@ -239,17 +264,17 @@
         </section>
         <!-- bike videos -->
         <section class="container py-5">
-            <div class="row text-center pb-5">
+            <div class="row text-center pb-5 section-heading">
                 <h1>Bike Videos</h1>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-12">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/DsRdCxX-pQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-12">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/WX5Eu7btXcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-12">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLd9JjNRHZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>

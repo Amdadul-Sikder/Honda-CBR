@@ -8,7 +8,7 @@ html,body{
     background-color: #264653;
     padding: 50px 0;
 }
-.hero-text h1{
+.hero-text h1, .section-heading h1{
     font-size: 48px;
 }
 .purchase-btn{
@@ -20,6 +20,11 @@ html,body{
 }
 .img-filter-grey{
     filter: grayscale(100%);
+}
+img.w-75 {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
 }
 .carousel-item img{
     height: 500px;
