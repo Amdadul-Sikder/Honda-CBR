@@ -6,20 +6,259 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4fa79b0128.js" crossorigin="anonymous"></script>
     <title>Honda CBR | Assignment 3</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>This is heading one</h1>
-        </div>
+    <!-- Header Area -->
+    <header class="header">
+        <section class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="hero-text text-white pe-5 mh-100">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="fw-bold pb-3">Honda CBR 300R</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn purchase-btn px-5 text-white fs-5">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-img d-flex justify-content-center">
+                        <img src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <!-- feature section -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="feature-heading text-center pb-5">
+                    <h1>Fetured Bikes 2021</h1>
+                    <h6 class="text-danger">Best bike collection</h6>
+                </div>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 text-center">
+                    <img class="w-75 img-filter-grey" src="images/feature-bike.jpg" alt="">
+                </div>
+                 <div class="col-lg-4 text-center">
+                    <img class="w-75" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img class="w-75 img-filter-grey" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>    
+            </div>
+        </section>
 
+        <!-- testimonial section -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="section-heading text-center pb-5">
+                    <h1>Happy <Span class="text-danger">Clients says</Span></h1>
+                </div>
+            </div>
+            <div class="row text-center gx-5">
+               <div class="col-lg-4">
+                   <div class="single-client border rounded p-5">
+                       <div class="client-img pb-5">
+                           <img class="w-75" src="images/user-1.png" alt="">
+                       </div>
+                       <div class="client-text">
+                           <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <p class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <h6 class="text-info">Regina Miles</h6>
+                            <h6>Banker</h6>
+                       </div>
+                   </div>
+               </div> 
+               <div class="col-lg-4">
+                   <div class="single-client border rounded p-5">
+                       <div class="client-img pb-5">
+                           <img class="w-75" src="images/user-2.png" alt="">
+                       </div>
+                       <div class="client-text">
+                           <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <p class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <h6 class="text-info">Regina Miles</h6>
+                            <h6>Banker</h6>
+                       </div>
+                   </div>
+               </div> 
+               <div class="col-lg-4">
+                   <div class="single-client border rounded p-5">
+                       <div class="client-img pb-5">
+                           <img class="w-75" src="images/user-1.png" alt="">
+                       </div>
+                       <div class="client-text">
+                           <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <p class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <h6 class="text-info">Regina Miles</h6>
+                            <h6>Banker</h6>
+                       </div>
+                   </div>
+               </div> 
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="section-heading text-center pb-5">
+                    <h1>Frequently Asked <span class="text-danger">Questions</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img class="w-75" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a 
+                                new one?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                What rules should I follow when riding my bike?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest bikes -->
+        <section class="container py-5">
+            <div class="row pb-5 text-center">
+                <h1>Latest Bikes</h1>
+            </div>
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+        <!-- bike videos -->
+        <section class="container py-5">
+            <div class="row text-center pb-5">
+                <h1>Bike Videos</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/DsRdCxX-pQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WX5Eu7btXcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLd9JjNRHZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <section class="container-fluid text-center py-3 bg-dark text-white">
+            <p>© 2020 bike. All rights reserved</p>
+        </section>
     </footer>
 
     <!-- bootstrap js -->
